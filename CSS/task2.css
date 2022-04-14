@@ -1,0 +1,97 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Zilla Slab", serif;
+}
+/* .body {
+  background-color: white;
+} */
+.header {
+  display: flex;
+}
+.cavani {
+  margin-left: 70px;
+  position: fixed;
+  margin-top: 20px;
+}
+.topnav {
+  list-style: none;
+  display: flex;
+  gap: 4px;
+  margin-left: 730px;
+  margin-top: 20px;
+  position: fixed;
+}
+.menu {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 10px;
+}
+.menu:hover {
+  background-color: black;
+  color: white;
+}
+/* .main {
+  display: flex;
+} */
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(253, 253, 253);
+}
+.left {
+  float: left;
+  width: 40%;
+}
+.right {
+  float: left;
+  width: 60%;
+  height: 81vh;
+  background-color: rgb(241, 248, 255);
+  margin-top: 70px;
+  margin-left: 437px;
+  padding: 40px;
+  padding-top: 125px;
+}
+.left .img {
+  width: 370px;
+  margin-top: 70px;
+  margin-left: 67px;
+  position: fixed;
+}
+.right .name {
+  text-transform: uppercase;
+  font-size: xx-large;
+  position: relative;
+}
+.right .name::before {
+  content: "";
+  width: 54px;
+  height: 4px;
+  position: absolute;
+  background-color: rgb(22, 22, 22);
+  bottom: -19px;
+}
+.right .role {
+  padding-top: 55px;
+  font-size: xx-large;
+}
+.right span {
+  font-size: xx-large;
+}
+.right .button {
+  margin-top: 50px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  background-color: rgb(27, 27, 27);
+}
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 1.5px solid;
+  transition-duration: 0.5s;
+}

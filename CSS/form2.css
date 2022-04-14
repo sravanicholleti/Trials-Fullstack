@@ -1,0 +1,156 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Rokkitt", serif;
+}
+article {
+  width: 30%;
+  height: 90vh;
+  box-shadow: 1px 2px 3px 2px rgb(240, 240, 240);
+  margin-top: 30px;
+  margin-left: 435px;
+}
+header {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(250, 198, 103);
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+}
+.div1 {
+  margin-top: 30px;
+  margin-left: 27px;
+  width: 330px;
+  border: 1px solid black;
+  display: flex;
+}
+.div1 input {
+  border: none;
+  padding: 9px;
+  width: 330px;
+  height: 27px;
+}
+.div1 label {
+  padding: 5px;
+  border-right: 1.5px solid;
+}
+.div2 {
+  margin-top: 20px;
+  margin-left: 27px;
+  width: 330px;
+  border: 1px solid black;
+  display: flex;
+}
+.div2 input {
+  border: none;
+  padding: 9px;
+  width: 330px;
+  height: 27px;
+}
+.div2 label {
+  padding: 5px;
+  border-right: 1.5px solid;
+}
+.div3 {
+  margin-top: 20px;
+  margin-left: 27px;
+  width: 330px;
+  border: 1px solid black;
+  display: flex;
+}
+.div3 input {
+  border: none;
+  padding: 9px;
+  width: 330px;
+  height: 27px;
+}
+.div3 label {
+  padding: 5px;
+  border-right: 1.5px solid;
+}
+span {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 27px;
+}
+.div4 {
+  width: 155px;
+  border: 1px solid black;
+  display: flex;
+}
+.div4 input {
+  border: none;
+  padding: 9px;
+  width: 127px;
+  height: 27px;
+}
+.div4 label {
+  padding: 5px;
+  border-right: 1.5px solid;
+}
+.div5 {
+  width: 155px;
+  border: 1px solid black;
+  display: flex;
+}
+.div5 input {
+  border: none;
+  padding: 9px;
+  width: 127px;
+  height: 27px;
+}
+.div5 label {
+  padding: 5px;
+  border-right: 1.5px solid;
+}
+.div6 {
+  margin-top: 25px;
+  margin-left: 27px;
+}
+.div6 label {
+  margin-right: 17px;
+}
+.div7 {
+  margin-top: 20px;
+  margin-left: 27px;
+}
+.div7 select {
+  width: 330px;
+  height: 31px;
+  padding-left: 10px;
+}
+.div8 {
+  margin-top: 20px;
+  margin-left: 27px;
+}
+.div9 {
+  margin-top: 20px;
+  margin-left: 27px;
+}
+button {
+  margin-top: 20px;
+  margin-left: 27px;
+  width: 330px;
+  height: 31px;
+  background-color: rgb(255, 179, 37);
+  color: white;
+  border: none;
+}
+.div6 label,
+.div8 label,
+.div9 label {
+  font-weight: bold;
+}
+/* this is to remove the input borders when we touch/focus on it*/
+.div1 input:focus,
+.div2 input:focus,
+.div3 input:focus,
+.div4 input:focus,
+.div5 input:focus {
+  outline: none;
+}

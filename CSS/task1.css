@@ -1,0 +1,388 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+body,
+html {
+  scroll-behavior: smooth;
+}
+#home {
+  width: 100%;
+  height: 100vh;
+  background: url(../Images/pexels-hasan-albari-1229861.jpg) no-repeat center;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  gap: 530px;
+  margin-left: 70px;
+  margin-right: 30px;
+}
+.optics {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 50px;
+  font-size: x-large;
+  position: fixed;
+}
+.topnav {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  position: fixed;
+  margin-left: 700px;
+  margin-top: 3px;
+}
+.menu {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: small;
+}
+.menu:hover {
+  width: 50px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+.headtext {
+  text-align: center;
+  margin-top: 230px;
+}
+.headtext h1 {
+  color: white;
+  padding: 5px;
+  font-size: xx-large;
+}
+.headtext h1 span {
+  color: greenyellow;
+}
+.headtext p {
+  margin-top: 5px;
+  padding: 5px;
+  color: white;
+}
+.headtext button {
+  margin-top: 35px;
+  padding: 10px;
+  color: greenyellow;
+  background-color: transparent;
+}
+#about {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(238, 238, 238);
+}
+.abtus {
+  padding-top: 35px;
+  margin-left: 120px;
+  position: relative;
+}
+.abtus::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  background-color: greenyellow;
+  bottom: -9px;
+}
+.aboutul {
+  list-style: none;
+  margin-top: 80px;
+  margin-left: 120px;
+  margin-right: 70px;
+  display: flex;
+  gap: 20px;
+}
+.aboutul h3 {
+  position: relative;
+}
+.aboutul h3::before {
+  content: "";
+  width: 50px;
+  height: 1.5px;
+  position: absolute;
+  background-color: greenyellow;
+  bottom: -9px;
+}
+.aboutul p {
+  margin-top: 50px;
+  font-style: inherit;
+}
+#services {
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(244, 250, 247);
+}
+.oursrvcs {
+  padding-top: 35px;
+  margin-left: 120px;
+  position: relative;
+}
+.oursrvcs::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  background-color: greenyellow;
+  bottom: -9px;
+}
+.serviceul {
+  list-style: none;
+  margin-top: 80px;
+  margin-left: 120px;
+  margin-right: 70px;
+  display: flex;
+  gap: 20px;
+}
+.serviceul2 {
+  list-style: none;
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 70px;
+  display: flex;
+  gap: 20px;
+}
+.serviceul h3 {
+  position: relative;
+}
+.serviceul h3::before {
+  content: "";
+  width: 50px;
+  height: 1.5px;
+  position: absolute;
+  background-color: greenyellow;
+  bottom: -9px;
+}
+.serviceul2 h3 {
+  position: relative;
+}
+.serviceul2 h3::before {
+  content: "";
+  width: 50px;
+  height: 1.5px;
+  position: absolute;
+  background-color: greenyellow;
+  bottom: -9px;
+}
+.serviceul p {
+  margin-top: 50px;
+  font-style: inherit;
+}
+.serviceul2 p {
+  margin-top: 50px;
+  font-style: inherit;
+}
+#portfolio {
+  width: 100%;
+  height: 97vh;
+  background-color: rgb(238, 238, 238);
+}
+.ourportfo {
+  padding-top: 35px;
+  margin-left: 120px;
+  position: relative;
+}
+.ourportfo::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  background-color: greenyellow;
+  bottom: -9px;
+}
+.ourportul {
+  list-style: none;
+  margin-top: 80px;
+  margin-left: 120px;
+  margin-right: 70px;
+  display: flex;
+  gap: 20px;
+}
+.ourportul .all {
+  color: greenyellow;
+}
+.portul1 {
+  list-style: none;
+}
+.portul1 li {
+  display: inline-block;
+  height: 127px;
+  width: 190px;
+  border: 1px solid;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.portul1:first-child {
+  margin-left: 90px;
+}
+.portul1 .li1 img {
+  width: 187px;
+}
+.portul1 .li2 img {
+  width: 187px;
+}
+.portul1 .li3 img {
+  width: 187px;
+}
+.portul1 .li4 img {
+  width: 187px;
+}
+.portul2 {
+  list-style: none;
+}
+.portul2 li {
+  display: inline-block;
+  height: 127px;
+  width: 190px;
+  border: 1px solid;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.portul2:last-child {
+  margin-left: 89px;
+}
+.portul2 .li5 img {
+  width: 187px;
+}
+.portul2 .li6 img {
+  width: 187px;
+}
+.portul2 .li7 img {
+  width: 187px;
+}
+.portul2 .li8 img {
+  width: 187px;
+}
+#team {
+  width: 100%;
+  height: 55vh;
+  background-color: rgb(252, 252, 252);
+}
+.ourteam {
+  padding-top: 35px;
+  margin-left: 120px;
+  position: relative;
+}
+.ourteam::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  background-color: greenyellow;
+  bottom: -9px;
+}
+.ourteamul {
+  list-style: none;
+  text-align: left;
+}
+.ourteamul li {
+  display: inline-block;
+  height: 84px;
+  width: 83px;
+  border: 1px solid;
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.ourteamul .mem1 img {
+  width: 83px;
+}
+.ourteamul .mem2 img {
+  width: 83px;
+}
+.ourteamul .mem3 img {
+  width: 83px;
+}
+.ourteamul .mem4 img {
+  width: 83px;
+}
+.teamnames {
+  display: flex;
+  gap: 137px;
+  margin-left: 113px;
+  list-style: none;
+  padding: 10px;
+}
+.designtn {
+  display: flex;
+  gap: 145px;
+  list-style: none;
+  padding: 5px;
+  margin-left: 119px;
+  font-style: oblique;
+}
+.designtn .p2 {
+  padding-left: 0px;
+}
+.designtn .p3 {
+  padding-left: 0px;
+}
+.designtn .p4 {
+  padding-left: 0px;
+  margin-left: -9px;
+}
+#contact {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(243, 243, 243);
+}
+.contactus {
+  padding-top: 35px;
+  margin-left: 120px;
+  position: relative;
+}
+.contactus::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  background-color: greenyellow;
+  bottom: -9px;
+}
+.contactway {
+  display: flex;
+  gap: 350px;
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 121px;
+  font-style: oblique;
+}
+.cntctnav {
+  display: flex;
+  gap: 210px;
+  margin-top: 40px;
+  margin-left: 121px;
+}
+.address {
+  list-style: none;
+}
+.address li {
+  margin-top: 19px;
+  font-style: initial;
+}
+.enterinfo {
+  list-style: none;
+}
+.enterinfo li {
+  margin-top: 10px;
+}
+.enterinfo textarea {
+  width: 365px;
+}
+.enterinfo .buton {
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: greenyellow;
+}
+.greenyellow {
+  color: greenyellow;
+}

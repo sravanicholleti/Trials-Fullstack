@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a874721e15.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/form2.css" />
+  </head>
+  <body>
+    <article>
+      <header></header>
+      <h1>Registration Form</h1>
+      <div class="div1">
+        <label for="Email"><i class="fa-solid fa-envelope"></i></label>
+        <input type="email" id="Email" placeholder="Email" />
+      </div>
+      <div class="div2">
+        <label for="Password"><i class="fa-solid fa-lock"></i></label>
+        <input type="password" id="Password" placeholder="Password" />
+      </div>
+      <div class="div3">
+        <label for="Re-Type-Password"><i class="fa-solid fa-lock"></i></label>
+        <input
+          type="password"
+          id="Re-Type-Password"
+          placeholder="Re-Type-Password"
+        />
+      </div>
+      <span>
+        <div class="div4">
+          <label for="Name"><i class="fa-solid fa-user"></i></label>
+          <input type="text" id="Name" placeholder="First Name" />
+        </div>
+        <div class="div5">
+          <label for="Name"><i class="fa-solid fa-user"></i></label>
+          <input type="text" id="Name" placeholder="Last Name" />
+        </div>
+      </span>
+      <div class="div6">
+        <input type="radio" id="Female" name="gender" />
+        <label for="Female">Female</label>
+        <input type="radio" id="Male" name="gender" />
+        <label for="Male">Male</label>
+      </div>
+      <div class="div7">
+        <select name="country" id="country" placeholder="Select a Country">
+          <option value="none">Select a Country</option>
+          <option value="ind">India</option>
+          <option value="can">Canada</option>
+          <option value="aus">Australia</option>
+          <option value="ita">Italy</option>
+        </select>
+      </div>
+      <div class="div8">
+        <input type="checkbox" id="tnc" />
+        <label for="tnc">I agree with terms and conditions</label>
+      </div>
+      <div class="div9">
+        <input type="checkbox" id="news" />
+        <label for="news">I want to receive the newsletter</label>
+      </div>
+      <button type="button">Register</button>
+    </article>
+  </body>
+</html>
